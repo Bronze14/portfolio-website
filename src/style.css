@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0; 
+    color: white;
+    font-family: "Space Grotesk";
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 21, 21);
+}
+.app--body{
+
+    margin: 0;
+    background-color: rgb(21, 21, 21);
+    width: 100%;
+    height: 100%;
+}
+.app--body--comp{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nav--Comp{
+    z-index: 1;
+    position: relative;
+    height: 800px;
+}
+.nav--Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.nav--Body{
+    margin-top: 30px;
+    height: 303px;
+    width: 750px;
+    display: flex;
+    flex-Wrap: wrap;
+    z-index: 1;
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-weight: 700;
+}
+.nav--Top h5 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+  
+.nav--Top div {
+    
+}
+.grid-container {
+    border-top: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+  
+.grid-container div {
+
+    padding: 10px;   
+}
+.footer--Container{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(36, 36, 36);
+}
+.footer--Top {
+    margin-top: 92px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 40px;
+    padding-bottom: 92px;
+}
+  
+.footer--Top h5 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.HeadingXL1 {
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    margin: 0px;
+}
+.HeadingXL2 {
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    margin: 0px;
+    width: 80px;
+}
+.HeadingXL3 {
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    margin: 0px;
+    border-bottom: 6px solid #4EE1A0;
+    margin-left: 60px;
+}
+    
+.Body--nav {
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    width: 440px;
+    margin-top: 40px;
+    color:#D9D9D9;
+
+}
+  
+.Contact--nav {
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.2857143878936768px;
+    text-align: left;
+    width: 120px;
+    height: 34px;
+    border-bottom: 2px solid #4EE1A0;
+    margin-top: 60px;
+}
+
+.nav--Body {
+    position: relative;
+    z-index: 1;
+}
+.nav--Top{
+    position: relative;
+    z-index: 1;
+}  
+.my--Photo {
+    position: absolute;
+    margin-left: 695px;
+    top:0;
+    z-index: 0;
+}
+.skills--XL{
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    text-align: left;
+
+}
+.skills--L{
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #D9D9D9;
+
+
+}
+.header--Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header--Nav h1{
+    
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-align: left;
+
+}
+.header--Nav h3{
+    
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.2857143878936768px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4EE1A0;
+    
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.contact-container{
+    display: flex;
+    
+}
+.title--Contact{
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    width: 330px;
+}
+.desciption--Contact{
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 445px;
+    margin-top: -20px;
+    color: #D9D9D9;
+
+}
+.email--Container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-top: 84px;
+}
+  
+.email--Container label {
+    margin-bottom: 10px;
+}
+.email--Container input, .email--Container textarea {
+    background-color: inherit;
+    margin-bottom: 32px;
+    width: 445px;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 43px;
+    color: white;
+    padding-left: 24px;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+
+}
+.email--Container textarea{
+    height: 107px;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+
+}
+.email--Container{
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+}
+.input::placeholder,
+textarea::placeholder {
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+
+}
+.email--Container button{
+    margin-left: 280px;
+    background-color: var(--bg-color);
+    border: none;
+    color: white;
+    height: 45px;
+    width: 156px;
+    border-bottom: 2px solid #4EE1A0;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.3px;
+    text-align: left;
+}
+.email--Container button:hover {
+    color: #4EE1A0;
+    cursor: pointer;
+}
+.green-icon{
+    margin-left: 25px;
+}
+.green-icon:hover path {
+    fill: #4EE1A0;
+    cursor: pointer;
+}
+.Contact--nav:hover{
+    color: #4EE1A0;
+    cursor: pointer;
+}
+.Contact--nav {
+
+    color:#D9D9D9;
+}
+a {
+    text-decoration: none;
+}
+.img--container {
+    position: relative;
+}
+.img--text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    filter: brightness(100%);
+}
+
+.img--text h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    visibility: hidden;
+   
+}
+
+.img--Projects {
+    width: 540px;
+    height: 400px;
+    object-fit: fill;
+    transition: filter 0.5s ease-in-out;
+}
+
+
+
+.img--container:hover img{
+    opacity: 0.5;
+}
+
+.img--container:hover .img--text h1 {
+    visibility: visible;
+    color:#FFFFFF;
+    border-bottom: 1px solid #4EE1A0;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.img--container:hover .img--text h1:hover {
+    color: #4EE1A0;
+
+}
+.h2--projects{
+    
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.h3--projects{
+    color: #D9D9D9;
+
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.email--Container input:focus,
+.email--Container textarea:focus {
+  border-bottom: 2px solid #4EE1A0;
+  outline: none;
+}
+@media (max-width: 600px) {
+    .app--body--comp {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+    .nav--Top h5 {
+      font-size: 24px;
+    }
+    
+    /* inne style dla mniejszych ekranów */
+  }
+  
