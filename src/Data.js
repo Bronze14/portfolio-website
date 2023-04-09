@@ -13,7 +13,7 @@ export default [
         img: photo
     },
     {
-        id: 1,
+        id: 2,
         link1: "https://adorable-elf-0f1615.netlify.app/",
         link2: "https://github.com/Bronze14/Euflagle-Game",
         title: "FLAGS GAME",
@@ -21,7 +21,7 @@ export default [
         img: flagle1
     },
     {
-        id: 2,
+        id: 3,
         link1: "https://quizzl.netlify.app/",
         link2: "https://github.com/Bronze14/quiz",
 
@@ -30,7 +30,7 @@ export default [
         img: quiz
     },
     {
-        id: 3,
+        id: 4,
         link1: "https://benevolent-florentine-bc8fdd.netlify.app/",
         link2: "https://github.com/Bronze14/Tenzie-Game",
         title: "TENZIE GAME",
@@ -39,7 +39,7 @@ export default [
 
     },
     {
-        id: 4,
+        id: 5,
         link1: "https://main--van-shop.netlify.app/",
         link2: "https://github.com/Bronze14/Van-project",
         title: "VAN SHOP",
