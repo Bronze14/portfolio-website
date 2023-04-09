@@ -1,10 +1,17 @@
 import flagle1 from "./images/flagle1.png";
-
+import photo from "./images/preview.jpg"
 import quiz from "./images/quiz.png"
 import tenzie from "./images/tenzie.png"
 import van2 from "./images/van2.png"
-
 export default [
+    {
+        id: 1,
+        link1: "https://photo-site1.netlify.app/",
+        link2: "https://github.com/Bronze14/Photosite",
+        title: "PHOTO SNAP",
+        languages: "HTML CSS REACT.JS",
+        img: photo
+    },
     {
         id: 1,
         link1: "https://adorable-elf-0f1615.netlify.app/",

@@ -34,7 +34,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    
+    position: relative;
+    z-index: 1;
 }
 .nav--Body{
     margin-top: 30px;
@@ -58,9 +59,6 @@ body {
     z-index: 1;
 }
   
-.nav--Top div {
-    
-}
 .grid-container {
     border-top: 1px solid white;
     display: grid;
@@ -152,13 +150,10 @@ body {
     position: relative;
     z-index: 1;
 }
-.nav--Top{
-    position: relative;
-    z-index: 1;
-}  
+ 
 .my--Photo {
     position: absolute;
-    margin-left: 695px;
+    margin-left: 664px;
     top:0;
     z-index: 0;
 }
@@ -407,16 +402,5 @@ a {
   border-bottom: 2px solid #4EE1A0;
   outline: none;
 }
-@media (max-width: 600px) {
-    .app--body--comp {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    
-    .nav--Top h5 {
-      font-size: 24px;
-    }
-    
-    /* inne style dla mniejszych ekranów */
-  }
-  
+
+
