@@ -2,23 +2,20 @@
     box-sizing: border-box;
     
 }
-
 html,
 body {
     margin: 0;
     padding: 0; 
     color: white;
-    font-family: "Space Grotesk";
     display: flex;
     justify-content: center;
     background-color: rgb(21, 21, 21);
 }
 .app--body{
-
+    font-family: "Space Grotesk";
     margin: 0;
     background-color: rgb(21, 21, 21);
-    width: 100%;
-    height: 100%;
+
 }
 .app--body--comp{
     padding-left: 200px;
@@ -27,8 +24,9 @@ body {
 .nav--Comp{
     z-index: 1;
     position: relative;
-    height: 800px;
+    padding-bottom: 200px;
 }
+
 .nav--Top {
     display: flex;
     justify-content: space-between;
@@ -39,17 +37,16 @@ body {
 }
 .nav--Body{
     margin-top: 30px;
-    height: 303px;
     width: 750px;
     display: flex;
-    flex-Wrap: wrap;
+    flex-wrap: wrap;
     z-index: 1;
-    font-family: "Space Grotesk";
     font-size: 88px;
     font-weight: 700;
 }
+
+
 .nav--Top h5 {
-    font-family: 'Space Grotesk', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
@@ -67,9 +64,7 @@ body {
     padding-top: 35px;
     padding-bottom: 80px;
 }
-  
 .grid-container div {
-
     padding: 10px;   
 }
 .footer--Container{
@@ -87,42 +82,33 @@ body {
     padding-top: 40px;
     padding-bottom: 92px;
 }
-  
 .footer--Top h5 {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
 }
 .HeadingXL1 {
-    font-family: "Space Grotesk";
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
     letter-spacing: -2.5px;
-    margin: 0px;
 }
 .HeadingXL2 {
-    font-family: "Space Grotesk";
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
     letter-spacing: -2.5px;
-    margin: 0px;
     width: 80px;
 }
 .HeadingXL3 {
-    font-family: "Space Grotesk";
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
     letter-spacing: -2.5px;
-    margin: 0px;
     border-bottom: 6px solid #4EE1A0;
     margin-left: 60px;
 }
-    
 .Body--nav {
-    font-family: "Space Grotesk";
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
@@ -130,80 +116,67 @@ body {
     width: 440px;
     margin-top: 40px;
     color:#D9D9D9;
-
 }
   
 .Contact--nav {
-    font-family: "Space Grotesk";
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    letter-spacing: 2.2857143878936768px;
+    letter-spacing: 2.29px;
     text-align: left;
     width: 120px;
     height: 34px;
     border-bottom: 2px solid #4EE1A0;
     margin-top: 60px;
 }
-
 .nav--Body {
     position: relative;
     z-index: 1;
 }
- 
 .my--Photo {
     position: absolute;
     margin-left: 664px;
     top:0;
     z-index: 0;
+    width: 445px;  
+    display: block;
 }
+
 .skills--XL{
-    font-family: "Space Grotesk";
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -1.5px;
     text-align: left;
-
 }
 .skills--L{
-    font-family: "Space Grotesk";
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
     color: #D9D9D9;
-
-
 }
 .header--Nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .header--Nav h1{
-    
-    font-family: "Space Grotesk";
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
     letter-spacing: -2.5px;
     text-align: left;
-
 }
 .header--Nav h3{
-    
-    font-family: "Space Grotesk";
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    letter-spacing: 2.2857143878936768px;
+    letter-spacing: 2.29px;
     text-align: left;
     padding-bottom: 5px;
     border-bottom: 2px solid #4EE1A0;
-    
 }
 
 .projects-container {
@@ -215,7 +188,7 @@ body {
 }
 .contact-container{
     display: flex;
-    
+
 }
 .title--Contact{
     font-family: "Space Grotesk";
@@ -243,6 +216,12 @@ body {
     flex-direction: column;
     margin-left: 220px;
     margin-top: 84px;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.22px;
+    text-align: left;
 }
   
 .email--Container label {
@@ -261,9 +240,8 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
-    letter-spacing: -0.2222222238779068px;
+    letter-spacing: -0.22px;
     text-align: left;
-
 }
 .email--Container textarea{
     height: 107px;
@@ -271,18 +249,10 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
-    letter-spacing: -0.2222222238779068px;
+    letter-spacing: -0.22px;
     text-align: left;
+}
 
-}
-.email--Container{
-    font-family: "Space Grotesk";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: -0.2222222238779068px;
-    text-align: left;
-}
 .input::placeholder,
 textarea::placeholder {
     font-family: "Space Grotesk";
@@ -341,7 +311,6 @@ a {
     text-align: center;
     filter: brightness(100%);
 }
-
 .img--text h1 {
     margin-bottom: 10px;
     text-align: center;
@@ -351,20 +320,15 @@ a {
     visibility: hidden;
    
 }
-
 .img--Projects {
     width: 540px;
     height: 400px;
     object-fit: fill;
     transition: filter 0.5s ease-in-out;
 }
-
-
-
 .img--container:hover img{
     opacity: 0.5;
 }
-
 .img--container:hover .img--text h1 {
     visibility: visible;
     color:#FFFFFF;
@@ -374,21 +338,17 @@ a {
 }
 .img--container:hover .img--text h1:hover {
     color: #4EE1A0;
-
 }
 .h2--projects{
-    
     font-family: "Space Grotesk";
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 .h3--projects{
     color: #D9D9D9;
-
     font-family: "Space Grotesk";
     font-size: 18px;
     font-weight: 500;
@@ -402,5 +362,298 @@ a {
   border-bottom: 2px solid #4EE1A0;
   outline: none;
 }
+@media (max-width: 400px) {
+    .footer--Container{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .title--Contact{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.1363636255264282px;
+        text-align: center;
+        margin-left: auto;
+        width: 343px;
+    }
+    .img--container:hover{
+        pointer-events: none;
+    }
+    .img--container:hover .img--text h1 {
+        visibility: visible;
+        padding-bottom: 0px;
+    }
+    .img--container:hover img{
+        opacity: 1;
+    }
+    .desciption--Contact{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 343px;
+    }
+    .footer--Top{
+        padding: 0;
+        margin: 0;
+        margin-top: 99px;
+        padding-top:39px;
+        padding-bottom: 60px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+        width:343px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email--Container{
+        margin:0;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .email--Container button{
+        width: 160px;
+        margin-left: 180px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.2857143878936768px;
+        text-align: left;
 
+    }
+    .email--Container input, .email--Container textarea {
+        margin-left: auto;
+        width: 333px;
+    }
+    html,
+    body{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .app--body{
+        
+       
+    }
+    
+    .app--body--comp{
+        margin: 0;
+        padding: 0;
+    }
+    .nav--Comp {
+        align-items: center;
+        justify-content: center;
+    }
+    .nav--Top {
+        width: 174px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: #242424;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nav--Top svg{
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+        transform: scale(0.8);
+        margin-top: 10px;
+        
+    }
+
+    .nav--Top h5 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.33px;
+        margin:auto;
+    }
+    .nav--Body{
+        display: flex;
+        margin-top: 300px;
+        width: 380px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .my--Photo{
+        width: 174px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:9%;
+    }
+    .HeadingXL1{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.1363636255264282px;
+        text-align: center;
+    }
+    .HeadingXL2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.1363636255264282px;
+        text-align: center;
+    }
+    .HeadingXL3{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.1363636255264282px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .Body--nav{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .Contact--nav {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.2857143878936768px;
+        text-align: left;
+        margin-bottom: 45px;
+        margin:auto;
+        
+
+    }
+    .header--Nav{
+        width: 343px;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+        margin-left: 34px;
+
+    }
+    .header--Nav h1{
+        margin-right: 50px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 330px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    .grid-container div {
+        padding: 0;
+    }
+    .skills--XL{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-align: center !important;
+
+    }
+    .skills--L{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center !important;
+
+    }
+    .header--Nav{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header--Nav h1{
+        text-align: left;
+        font-size: 40px !important;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.1363636255264282px;
+        text-align: left;
+        
+    }
+    .header--Nav h3{
+        font-size: 16px !important;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.2857143878936768px;
+        text-align: left;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #4EE1A0;
+    }
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 0;
+        
+    }
+    .img--Projects {
+        width: 343px !important;
+        height: 253px !important; 
+    }
+
+    .img--text {
+        top: 85%;
+        left: 21%;
+        display: flex;
+        text-align: left;
+        visibility: visible;
+        width: 140px;
+        padding: 0;
+    }
+    .img--text h1 {
+        padding: 0;
+        width: 160px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.2857143878936768px;
+        text-align: left;
+        visibility: visible;
+        border-bottom: 1px solid #4EE1A0;
+    }
+    
+    .h2--projects{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+    .h3--projects{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .img--container{
+        padding-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+}
 

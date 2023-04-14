@@ -18,9 +18,12 @@ export default function App() {
       <div className="app--body--comp">
         <Nav/>
         <Skills/>
+
+
         <Header/>
+
       </div>
-      <Footer/>
+        <Footer/>
     </div> 
   )
 }
