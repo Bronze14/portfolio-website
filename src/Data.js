@@ -16,9 +16,8 @@ export default [
         id: 2,
         link1: "https://quizzl.netlify.app/",
         link2: "https://github.com/Bronze14/quiz",
-
         title: "QUIZ GAME",
-        languages: "HTML CSS JS",
+        languages: "HTML CSS REACT.JS",
         img: quiz
     },
     {
@@ -34,7 +33,7 @@ export default [
         link1: "https://benevolent-florentine-bc8fdd.netlify.app/",
         link2: "https://github.com/Bronze14/Tenzie-Game",
         title: "TENZIE GAME",
-        languages: "HTML CSS JS",
+        languages: "HTML CSS REACT.JS",
         img: tenzie
 
     },
@@ -43,7 +42,7 @@ export default [
         link1: "https://main--van-shop.netlify.app/",
         link2: "https://github.com/Bronze14/Van-project",
         title: "VAN SHOP",
-        languages: "HTML CSS REACT.JS",
+        languages: "HTML CSS REACT.JS FIREBASE",
         img: van2
 
     }
