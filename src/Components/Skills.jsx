@@ -39,6 +39,14 @@ export default function Skills() {
             <h1 className="skills--XL">SASS</h1>
             <h4 className="skills--L">1 Years Experience</h4>
         </div>
+        <div>
+            <h1 className="skills--XL">FIGMA</h1>
+            <h4 className="skills--L">1 Years Experience</h4>
+        </div>
+        <div>
+            <h1 className="skills--XL">REDUX</h1>
+            <h4 className="skills--L">1 Years Experience</h4>
+        </div>
     </div>
     )
   }
