@@ -7,7 +7,7 @@ import Ecommerce from "./images/Ecommerce.jpg"
 export default [
     {
         id: 6,
-        link1: "https://app.netlify.com/sites/poetic-belekoy-8ab2fe/overview",
+        link1: "https://poetic-belekoy-8ab2fe.netlify.app/",
         link2: "https://github.com/Bronze14/Ecommerce",
         title: "Ecommerce Product Page",
         languages: "HTML SCSS REACT.JS Redux",
