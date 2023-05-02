@@ -3,7 +3,16 @@ import photo from "./images/preview.jpg"
 import quiz from "./images/quiz.png"
 import tenzie from "./images/tenzie.png"
 import van2 from "./images/van2.png"
+import Ecommerce from "./images/Ecommerce.jpg"
 export default [
+    {
+        id: 6,
+        link1: "https://app.netlify.com/sites/poetic-belekoy-8ab2fe/overview",
+        link2: "https://github.com/Bronze14/Ecommerce",
+        title: "Ecommerce Product Page",
+        languages: "HTML SCSS REACT.JS Redux",
+        img: Ecommerce
+    },
     {
         id: 1,
         link1: "https://photo-site1.netlify.app/",
