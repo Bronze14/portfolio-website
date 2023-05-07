@@ -8,7 +8,7 @@ import restCountries from './images/Rest-api-countries.jpg'
 export default [
     {
         id: 8,
-        link1: "https://poetic-belekoy-8ab2fe.netlify.app/",
+        link1: "https://beautiful-taffy-edb592.netlify.app/",
         link2: "https://github.com/Bronze14/rest-api-countries",
         title: "Rest-Api-Countries",
         languages: "HTML SCSS REACT.JS Redux Router",
