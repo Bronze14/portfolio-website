@@ -4,7 +4,16 @@ import quiz from "./images/quiz.png"
 import tenzie from "./images/tenzie.png"
 import van2 from "./images/van2.png"
 import Ecommerce from "./images/Ecommerce.jpg"
+import restCountries from './images/Rest-api-countries.jpg'
 export default [
+    {
+        id: 8,
+        link1: "https://poetic-belekoy-8ab2fe.netlify.app/",
+        link2: "https://github.com/Bronze14/rest-api-countries",
+        title: "Rest-Api-Countries",
+        languages: "HTML SCSS REACT.JS Redux Router",
+        img: restCountries
+    },
     {
         id: 6,
         link1: "https://poetic-belekoy-8ab2fe.netlify.app/",
