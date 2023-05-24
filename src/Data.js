@@ -5,7 +5,16 @@ import tenzie from "./images/tenzie.png"
 import van2 from "./images/van2.png"
 import Ecommerce from "./images/Ecommerce.jpg"
 import restCountries from './images/Rest-api-countries.jpg'
+import rock from './images/rockpaper.jpg'
 export default [
+    {
+        id: 10,
+        link1: "https://aesthetic-naiad-ba687e.netlify.app/",
+        link2: "https://github.com/Bronze14/rock-scissor",
+        title: "Rock-Scissors-Paper-Spock-Lizard Game",
+        languages: "HTML SCSS REACT.JS",
+        img: rock
+    },
     {
         id: 8,
         link1: "https://beautiful-taffy-edb592.netlify.app/",
