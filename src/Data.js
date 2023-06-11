@@ -6,12 +6,13 @@ import van2 from "./images/van2.png"
 import Ecommerce from "./images/Ecommerce.jpg"
 import restCountries from './images/Rest-api-countries.jpg'
 import rock from './images/rockpaper.jpg'
+import projectadd from './images/projectaddandlist.png'
 export default [
     {
         id: 10,
         link1: "https://aesthetic-naiad-ba687e.netlify.app/",
         link2: "https://github.com/Bronze14/rock-scissor",
-        title: "Rock-Scissors-Paper-Spock-Lizard Game",
+        title: "R-S-P-S-L Game",
         languages: "HTML SCSS REACT.JS",
         img: rock
     },
@@ -72,5 +73,14 @@ export default [
         languages: "HTML CSS REACT.JS FIREBASE",
         img: van2
 
+    },
+    {
+
+        id: 14,
+        link1: "https://subscapular-copy.000webhostapp.com/",
+        link2: "https://bitbucket.org/junior-developer-test-task-rps/junior-test-task/src/master/",
+        title: "Project list/add",
+        languages: "React.js PHP MySQL ReactBootstrap",
+        img: projectadd
     }
 ]
