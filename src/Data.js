@@ -82,7 +82,7 @@ export default [
         link1: "https://streamer-page.vercel.app/",
         link2: "https://github.com/Bronze14/StreamerPage",
         title: "Streamer Page",
-        languages: "Next.js Typescript Appwrite Zustand",
+        languages: "Next.js Typescript Zustand Tailwind css",
         img: Streampageimg
     },
     {
