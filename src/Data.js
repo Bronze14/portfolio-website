@@ -7,6 +7,8 @@ import Ecommerce from "./images/Ecommerce.jpg"
 import restCountries from './images/Rest-api-countries.jpg'
 import rock from './images/rockpaper.jpg'
 import projectadd from './images/projectaddandlist.png'
+import Streampageimg from './images/Streampageimg.png'
+
 export default [
     {
         id: 10,
@@ -73,6 +75,15 @@ export default [
         languages: "HTML CSS REACT.JS FIREBASE",
         img: van2
 
+    },
+    {
+
+        id: 15,
+        link1: "https://streamer-page.vercel.app/",
+        link2: "https://github.com/Bronze14/StreamerPage",
+        title: "Streamer Page",
+        languages: "Next.js Typescript Appwrite Zustand",
+        img: Streampageimg
     },
     {
 
