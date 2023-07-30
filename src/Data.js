@@ -8,8 +8,17 @@ import restCountries from './images/Rest-api-countries.jpg'
 import rock from './images/rockpaper.jpg'
 import projectadd from './images/projectaddandlist.png'
 import Streampageimg from './images/Streampageimg.png'
+import weatherpng from './images/weatherapp.png'
 
 export default [
+     {
+        id: 90,
+        link1: "https://weather-app-beta-orpin.vercel.app/",
+        link2: "https://github.com/Bronze14/weather-app",
+        title: "Weather App",
+        languages: "Next.js Typescript Tailwind Tremor Graphql",
+        img: weatherpng
+    },
     {
         id: 10,
         link1: "https://aesthetic-naiad-ba687e.netlify.app/",
