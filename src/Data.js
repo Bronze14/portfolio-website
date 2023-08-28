@@ -9,6 +9,7 @@ import rock from './images/rockpaper.jpg'
 import projectadd from './images/projectaddandlist.png'
 import Streampageimg from './images/Streampageimg.png'
 import weatherpng from './images/weatherapp.png'
+import giard from './images/nowyp;roj.png'
 
 export default [
      {
@@ -75,6 +76,14 @@ export default [
         languages: "HTML CSS REACT.JS",
         img: tenzie
 
+    },
+        {
+        id: 76,
+        link1: "https://elegant-crepe-d66a33.netlify.app/",
+        link2: "https://github.com/Bronze14/Giard",
+        title: "Giard Design",
+        languages: "HTML Tailwind JS",
+        img: giard
     },
     {
         id: 5,
