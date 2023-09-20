@@ -14,7 +14,7 @@ export default function Header(props){
       <div className="header--Container"> 
         <div className="header--Nav">
           <h1>Projects</h1>
-          <a href="#contact-form">
+          <a href="#contact-form" >
             <h3 className="Contact--nav">CONTACT ME</h3>
           </a>
 
